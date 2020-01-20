@@ -83,7 +83,9 @@ $(document).ready(function () {
   }
   getTime(); //calls the function
 
-
+  $(".clear-data").on("click", function(){
+    localStorage.clear("textareaList")
+})
 
 
 })
