@@ -1,20 +1,24 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 1;
-    
+    line-height: 1; 
   }
 
 textarea {
     background: transparent;
     font-size: 18px;
-    resize: none;
+    resize: none;   /* takes away the resize tab that would normally appear */
     color: #000000;
+    vertical-align: middle;
     border-left: 1px solid black;
-    padding: 5px;
-    margin: 0 auto;
-    margin-left: 0px;
     width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .col-sm-9 {
+    padding-left: 2px;
+    padding-right: 0px;
   }
   
   .jumbotron {
@@ -25,59 +29,55 @@ textarea {
     border-bottom: 10px solid black;
   }
   
-  .description{
-    white-space: pre-wrap;
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-  }
-  
   .row {
     white-space: pre-wrap;
-    height: 60px;
-    border-top: 1px solid white;;
+    height: 40px;
+    border-top: 2px solid white;
+    margin: 40px;
   }
   
-  #hour {
+   .col-sm-1 {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
     text-align: center;
     max-width: 5%;
     margin: 0 auto;
-    margin-right: 0;
-    padding-top: 20px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
     border-bottom-width: 20px;
-    padding-bottom: 20px;
+    ;
+  } 
+  
+  #past {
+    background-color: #e8eaec;
   }
   
-  .past {
-    background-color: #d3d3d3;
-    color: white;
+  #present {
+    background-color: lavenderblush;
   }
   
-  .present {
-    background-color: #ff6961;
-    color: white;
+  #future {
+    background-color:#ace9dd;
   }
-  
-  .future {
-    background-color: #77dd77;
-    color: white;
+
+  .col-sm-2{
+    padding-left: 0px;
+    padding-bottom: 10px;
   }
-  
+
   .saveBtn {
-    border-left: 1px solid black;
+    border: 2px solid whitesmoke;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color:#e3c256;
     color: white;
     max-width: 10%;
+    height: 80px;
     margin: 0 auto;
-    padding: 20px;
- 
+    padding-right:40px;
+    padding-left: 20px;
   }
   
   .saveBtn i:hover {
@@ -86,3 +86,11 @@ textarea {
   }
 
 
+footer {
+  background-color: #637986;
+  color: lavenderblush;
+  text-align: center;
+  border: 2px solid lavenderblush;
+  margin-top: 100px;
+  padding: 10px;
+}
