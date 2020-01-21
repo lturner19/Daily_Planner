@@ -16,7 +16,10 @@
 
 2. The user can then save their tasks by clicking the save icon on the right side of the row.
     * The user's tasks will still be there upon returning to the site.
- 
+ <br></br>
+
+3. The user can clear the schedule of the daily events by clicking the "Clear Schedule" button in the heading. 
+    * The user will need to refresh the page to see the cleared scheduler.
 
 ## Preview
 
@@ -24,6 +27,7 @@
 
 
 ## Badges
+Please click the badge directly beneath to go directly to scheduler.
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://lturner19.github.io/jQuery_DayPlanner/)
 
