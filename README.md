@@ -23,7 +23,7 @@
 
 ## Preview
 
-![image](assets/scheduler_preview.jpg)
+![image](assets/image/scheduler_preview.jpg)
 
 
 ## Badges
