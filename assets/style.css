@@ -4,11 +4,17 @@ body {
     line-height: 1; 
   }
 
+  /* Date */
+#currentDay{
+  font-size: 36px;
+}
+
 textarea {
     background: transparent;
     font-size: 18px;
     font-weight: bolder;
-    resize: none;   /* takes away the resize tab that would normally appear */
+    /* takes away the resize tab that would normally appear */
+    resize: none;   
     color: darkblue;
     vertical-align: middle;
     

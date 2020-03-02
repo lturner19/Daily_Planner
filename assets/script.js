@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  const currentDate = moment().format('MMMM Do YYYY');//displays the current day
+  const currentDate = moment().format('MMMM D YYYY');//displays the current day
   let currentHour = moment().hour();  //displays the current hour
   let plannerTasks = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
   function getTime() {
     for (let index = 0; index < plannerTasks.length; index++) {//running through the array to display hours
-      var row = $("<div class='row'>"); //creating a  dynamic row div to hold all 3 columns
+      var row = $("<div class='row'>"); //creating a dynamic row div to hold all 3 columns
       var columnOne = $("<div  class='col-sm-1 text-right'>"); // creating dynamic column div to hold hour info
 
       // determines if hour is am or pm
